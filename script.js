@@ -14,7 +14,7 @@ function addItem(){
     {
     let row = document.createElement('tr');
     priceArr.push(parseInt(price));
-    row.innerHTML = `<td>${item}</td> <td>${price}`;
+    row.innerHTML = `<td>${item}</td> <td>${price}</td>`;
     for(let i=0; i<priceArr.length; i++)
     {
         sum += priceArr[i];
